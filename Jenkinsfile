@@ -12,6 +12,11 @@ stages {
             sh 'echo test'
         }
     }
+    stages('checkout'){
+        steps{
+            sh 'echo checkout'
+        }
+    }
 
 }
 
